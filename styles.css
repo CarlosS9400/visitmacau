@@ -135,7 +135,7 @@ p {
 
 /* adjustment in a small screen */
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
 
     #header h2 {
 
@@ -168,13 +168,13 @@ p {
     #tourist-points, #guide, #service {
 
         width: 100vw;
-        padding: 20px;
+        padding: 10px;
     }
 }
 
 
 
-@media screen and (max-height: 376px) {
+@media (max-height: 376px) {
 
     #header h2 {
         display: none;
