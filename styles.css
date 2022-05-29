@@ -7,9 +7,10 @@
 body {
     background-color: #B4BEC9;
     text-align: center;
-    /*color: #517081;*/
+    
     color: #fff;
     font-size: 1.5rem;
+    width: 100vw;
     font-family: 'Spinnaker', sans-serif;
    
     
@@ -25,9 +26,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25px;
     
-    margin: 5px;
+    
+    padding-top: 20vh;
 }
 
 .title-style {
@@ -135,7 +136,13 @@ p {
 
 /* adjustment in a small screen */
 
-@media (max-width: 510px) {
+@media (max-width: 510px), (max-height: 376px) {
+
+   
+
+    h1 {
+        width: 60vw;
+    }
 
     #header h2 {
 
@@ -150,6 +157,8 @@ p {
   
     #header {
         padding-top: 80px;
+        background: url("./images/top-macau-image.jpg") no-repeat  center center/cover;
+
         
     }
 
@@ -162,37 +171,14 @@ p {
     #tourist-points, #guide, #service {
         flex-direction:column;
         align-items: center;
-        padding: 40px;
+       
+        
     }
 
-    #tourist-points, #guide, #service {
-
-        width: 100vw;
-        padding: 10px;
+    #guide {
+        width: 80vw;
     }
-}
 
-
-
-@media (max-height: 376px) {
-
-    #header h2 {
-        display: none;
     
-      
-    }
-
-    #tourist-points, #guide, #service {
-        flex-direction:column;
-        align-items: center;
-        padding: 40px;
-    }
-
-    #tourist-points, #guide, #service {
-
-        width: 100vw;
-        padding: 20px;
-    }
-
-
 }
+
