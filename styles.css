@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B4BEC9;
+    text-align: center;
+    /*color: #517081;*/
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Spinnaker', sans-serif;
+   
+    
+}
+
+/* logo */
+
+#header {
+    background: url("./images/top-macau-image.jpg") no-repeat  center center/cover;
+    width: 100vw;
+    height: 45vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    
+    margin: 5px;
+}
+
+.title-style {
+    border-bottom: 5px solid #fff;
+}
+
+h1, h2 {
+    text-shadow: 0 0 1px black;
+    margin: 5px;
+    padding: 5px;
+    width: 800px;
+    opacity: 0.9;
+    -webkit-text-stroke: 2px black; /* width and color */
+    font-weight: 900; 
+}
+
+h1 {
+    background-color: #8CAFCD;
+    color: rgb(190,100,100); 
+    
+}
+
+h2 {
+    background-color: #517081;
+    color: #C6C9CF;
+    opacity: 0.7;
+}
+
+/* Tourists Points */
+
+#tourist-points {
+  display: flex;
+  justify-content: space-around;
+}
+
+.interests {
+    padding: 30px;
+}
+
+.points-images {
+    width: 250px;
+    height: 250px;
+    border: 10px solid #9B9C9D;
+    border-radius: 100px;
+}
+
+.points-images:hover {
+    width: 300px;
+    height: 300px;
+}
+
+h3, p{
+    width: 300px;
+}
+
+#guide h3 {
+     color: rgb(190,100,100)
+}
+
+p {
+    font: 0.8rem;
+    color: #405B6F;
+    padding-top: 10px;
+}
+
+
+/* last part */
+#guide {
+    background-color: #517081;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 80px 0;
+    margin: 10px 0 500px;
+    border-radius: 10px;
+    margin:50px auto;
+    
+    border-bottom: 5px solid #fff;
+
+
+}
+
+#guide-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    
+}
+
+#service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    
+}
+
+#service p {
+    padding: 10px;
+    color: #fff;
+}
+
+
