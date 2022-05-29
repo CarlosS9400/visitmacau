@@ -135,7 +135,14 @@ p {
 
 /* adjustment in a small screen */
 
-@media (max-width: 500px) {
+@media screen and (max-width: 400px) {
+
+    #header h2 {
+
+        display: none;
+    
+      
+    }
 
     * {
         font-size: 1rem;
@@ -143,11 +150,31 @@ p {
   
     #header {
         padding-top: 80px;
+        
     }
 
     #header h1, .title-style {
         font-size: 2rem;
     }
+
+  
+
+    #tourist-points, #guide, #service {
+        flex-direction:column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    #tourist-points, #guide, #service {
+
+        width: 100vw;
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (max-height: 376px) {
 
     #header h2 {
         display: none;
@@ -161,14 +188,11 @@ p {
         padding: 40px;
     }
 
-    #guide, #service {
+    #tourist-points, #guide, #service {
 
-        width: 400px;
-        padding: 40px;
+        width: 100vw;
+        padding: 20px;
     }
-
-    
 
 
 }
-
