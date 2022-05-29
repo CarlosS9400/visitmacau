@@ -143,6 +143,11 @@ p {
     #header {
         padding-top: 80px;
     }
+
+    #header h1, .title-style {
+        font-size: 2rem;
+    }
+
     #header h2 {
         display: none;
     
