@@ -72,6 +72,7 @@ h2 {
     height: 250px;
     border: 10px solid #9B9C9D;
     border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 .points-images:hover {
