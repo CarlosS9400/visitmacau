@@ -135,7 +135,7 @@ p {
 
 /* adjustment in a small screen */
 
-@media (max-width: 490px) {
+@media (max-width: 510px) {
 
     #header h2 {
 
