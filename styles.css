@@ -16,6 +16,8 @@ body {
     
 }
 
+
+
 /* logo */
 
 #header {
@@ -65,24 +67,36 @@ h2 {
 }
 
 .interests {
-    padding: 30px;
+    
+    padding: 10px;
+    width: 50vw;
+    text-align: center;
+    margin: 1vw;
+    background-color: #517081;
+    border: 5px solid #fff;
+    
+   
 }
 
 .points-images {
     width: 250px;
     height: 250px;
     border: 10px solid #9B9C9D;
-    border-radius: 100px;
+    border-radius: 50px;
     margin-bottom: 10px;
 }
 
 .points-images:hover {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
-h3, p{
-    width: 300px;
+
+
+h3{
+    
+    color: rgb(190,100,100);
+    
 }
 
 #guide h3 {
@@ -91,7 +105,7 @@ h3, p{
 
 p {
     font: 0.8rem;
-    color: #405B6F;
+    
     padding-top: 10px;
 }
 
@@ -108,6 +122,7 @@ p {
     border-radius: 10px;
     margin:50px auto;
     
+    border-top: 10px solid #000;
     border-bottom: 5px solid #fff;
 
 
@@ -117,6 +132,7 @@ p {
     width: 200px;
     height: 200px;
     border-radius: 50px;
+    margin: 10px;
 
     
 }
@@ -134,17 +150,23 @@ p {
     color: #fff;
 }
 
+#unreal {
+    color: red;
+}
+
+
 /* adjustment in a small screen */
 
-@media (max-width: 510px), (max-height: 376px) {
+@media (max-width: 510px), (max-height: 414px) {
 
     * {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        
     }
 
     #header {
-        padding-top: 5vh;
-        background: url("./images/top-macau-image.jpg") no-repeat  center center/cover;
+        padding-top: 12vh;
+        background: url("./images/top-macau-image.jpg") no-repeat  right center/cover;
 
         
     }
@@ -154,7 +176,7 @@ p {
     }
 
     h1 {
-        width: 80vw;
+        width: 70vw;
     }
 
     #header h2 {
@@ -164,19 +186,46 @@ p {
       
     }
 
+
+    .points-images {
+
+        width: 250px;
+        height: 250px;
+        
+
+    }
+
+    .points-images:hover {
+        width: 290px;
+        height: 290px;
+        
+
+    }
+
   
 
     #tourist-points, #guide, #service {
         flex-direction:column;
         align-items: center;
+        padding: 1vw;
        
         
     }
 
-    #guide {
-        width: 90vw;
+    .interests, #guide {
+        width: 88vw;
+        
+    }
+
+    h3, p {
+        padding: 1px;
     }
 
     
+
+    
 }
+
+
+
 
