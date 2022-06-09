@@ -150,6 +150,14 @@ p {
     color: #fff;
 }
 
+#phone {
+    color: rgb(190,100,100); 
+}
+
+#phone:visited {
+    color: rgb(190,100,100); 
+}
+
 #unreal {
     color: #000000;
 }
